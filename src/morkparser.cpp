@@ -348,7 +348,6 @@ void MorkParser::parseCell()
 				{
 					Text += NextChar;
 				}
-				else nextChar();
 			}
 			break;
 		case '$':
